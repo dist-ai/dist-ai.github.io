@@ -17,7 +17,7 @@ MLC-LLM/
 ├── index.html              # Homepage
 ├── projects.html           # Projects showcase
 ├── blog.html              # Blog/articles page
-├── community.html         # Community resources
+├── courses.html          # Courses and tutorials
 ├── about.html             # About page
 ├── css/
 │   └── style.css          # Main stylesheet
@@ -68,14 +68,12 @@ MLC-LLM/
 - Newsletter subscription
 - Performance charts
 
-### 4. Community (`community.html`)
-- Community statistics
-- Platform links (GitHub, Discord, Twitter)
-- Contribution guidelines
-- Learning resources
-- Events calendar
-- Support options
-- Contact form
+### 4. Courses (`courses.html`)
+- Academic conference tutorials
+- ICML 2024 tutorial on efficient LLM serving
+- SIGMOD 2024 tutorial on LLM systems
+- ASPLOS 2025 tutorial on GenAI compilers
+- Related research papers and resources
 
 ### 5. About (`about.html`)
 - Mission statement
