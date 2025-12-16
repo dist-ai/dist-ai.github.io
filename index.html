@@ -267,6 +267,30 @@
             margin: 0 auto;
         }
 
+        .acknowledgment-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .acknowledgment-logo {
+            height: 40px;
+            max-width: 140px;
+            object-fit: contain;
+            filter: grayscale(10%);
+            opacity: 0.9;
+            transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .acknowledgment-logo:hover {
+            filter: none;
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+
         .acknowledgment-text a {
             color: var(--primary-color, #2563eb);
             text-decoration: none;
@@ -287,6 +311,14 @@
             .acknowledgment-text {
                 font-size: 0.9rem;
                 padding: 0 1rem;
+            }
+
+            .acknowledgment-logos {
+                gap: 1.5rem;
+            }
+
+            .acknowledgment-logo {
+                height: 32px;
             }
         }
     </style>
@@ -494,6 +526,15 @@
         <section class="acknowledgment">
             <div class="container">
                 <p class="acknowledgment-text">The overall community is supported by <a href="https://www.nsf.gov/" target="_blank" rel="noopener noreferrer">NSF</a>, <a href="https://www.cmu.edu/catalyst/" target="_blank" rel="noopener noreferrer">CMU Catalyst</a>, <a href="https://www.purdue.edu/" target="_blank" rel="noopener noreferrer">Purdue</a>, <a href="https://www.nvidia.com/" target="_blank" rel="noopener noreferrer">NVIDIA</a>, <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon</a>, and <a href="https://research.google/" target="_blank" rel="noopener noreferrer">Google</a>.</p>
+                <div class="acknowledgment-logos">
+                    <img src="img/logos/nsf.png" alt="NSF" class="acknowledgment-logo">
+                    <img src="img/logos/cmu.png" alt="CMU" class="acknowledgment-logo">
+                    <img src="img/logos/catalyst.png" alt="Catalyst" class="acknowledgment-logo">
+                    <img src="img/logos/purdue.png" alt="Purdue" class="acknowledgment-logo">
+                    <img src="img/logos/nvidia.png" alt="NVIDIA" class="acknowledgment-logo">
+                    <img src="img/logos/amazon.png" alt="Amazon" class="acknowledgment-logo">
+                    <img src="img/logos/google.png" alt="Google" class="acknowledgment-logo">
+                </div>
             </div>
         </section>
     </main>
